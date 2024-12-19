@@ -1,24 +1,84 @@
+/* Set the font family for the entire page */
 body {
+  font-family: Arial, sans-serif; /* Specifies a font family */
   background-color: #f0f8ff; /* Light blue background */
-  font-family: Arial, sans-serif; /* Default font */
+  margin: 0; /* Removes default margins */
+  padding: 0;
 }
 
+/* Center and style headings */
 h1, h2 {
-  text-align: center; /* Center align all headings */
+  text-align: center; /* Centers text */
+  color: #333; /* Specifies a font color */
+  margin-top: 20px;
 }
 
-img {
-  max-width: 90%; /* Scale image to fit */
-  margin: 20px auto; /* Center image */
-  display: block;
-}
-
-iframe {
-  display: block; /* Center video */
-  margin: 20px auto;
-}
-
+/* Style navigation links */
 nav {
-  text-align: center; /* Center navigation links */
+  text-align: center; /* Centers the navigation links */
   margin: 20px 0;
+}
+
+/* Style navigation links (hover effects) */
+nav a {
+  text-decoration: none;
+  color: #007BFF; /* Bootstrap blue color for links */
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style images */
+img {
+  display: block; /* Centers the image */
+  margin: 20px auto;
+  max-width: 90%; /* Scales image to fit within 90% of the page width */
+  border-radius: 10px; /* Adds rounded corners */
+}
+
+/* Style iframe (e.g., YouTube video) */
+iframe {
+  display: block; /* Centers the iframe */
+  margin: 20px auto;
+  border: 3px solid #ccc; /* Adds a border around the video */
+  border-radius: 10px; /* Rounds iframe corners */
+}
+
+/* Position and style div containers */
+div.tableauPlaceholder {
+  margin: 20px auto;
+  border: 2px solid #007BFF; /* Adds a border around the Tableau graph */
+  padding: 10px;
+  border-radius: 8px; /* Adds rounded corners */
+}
+
+/* Style ordered and unordered lists */
+ol, ul {
+  margin: 20px;
+  padding: 0;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: circle; /* Uses circles for unordered list items */
+  margin-left: 20px;
+}
+
+/* Back-to-top link */
+a[href="#top"] {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  color: #007BFF;
+  font-weight: bold;
+}
+a[href="#top"]:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }
