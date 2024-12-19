@@ -1,0 +1,19 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+}
+h1, h2 {
+  text-align: center;
+}
+img {
+  max-width: 90%;
+  margin: 20px auto;
+}
+iframe {
+  display: block;
+  margin: 20px auto;
+}
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
