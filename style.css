@@ -1,19 +1,24 @@
 body {
-  background-color: #f0f8ff;
-  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  font-family: Arial, sans-serif; /* Default font */
 }
+
 h1, h2 {
-  text-align: center;
+  text-align: center; /* Center align all headings */
 }
+
 img {
-  max-width: 90%;
-  margin: 20px auto;
-}
-iframe {
+  max-width: 90%; /* Scale image to fit */
+  margin: 20px auto; /* Center image */
   display: block;
+}
+
+iframe {
+  display: block; /* Center video */
   margin: 20px auto;
 }
+
 nav {
-  text-align: center;
+  text-align: center; /* Center navigation links */
   margin: 20px 0;
 }
